@@ -1,4 +1,4 @@
-# Instant Chat App
+# Instant : Chat Application
 
 A Chat App built using React Native, Expo, Firebase, Realtime Database, React Redux.
 
