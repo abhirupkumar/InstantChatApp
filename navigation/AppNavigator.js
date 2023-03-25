@@ -5,7 +5,6 @@ import AuthScreen from '../screens/AuthScreen';
 import { useSelector } from 'react-redux';
 import StartUpScreen from '../screens/StartUpScreen';
 
-
 const AppNavigator = () => {
 
     const isAuth = useSelector(state => state.auth.token !== null && state.auth.token !== "");

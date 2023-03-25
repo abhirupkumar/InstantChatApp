@@ -1,4 +1,4 @@
-import { ActivityIndicator, KeyboardAvoidingView, Platform, View } from 'react-native';
+import { ActivityIndicator, KeyboardAvoidingView, Platform, Text, View } from 'react-native';
 import React, { useRef } from 'react';
 import ChatSettingScreen from '../screens/ChatSettingScreen';
 import ChatListScreen from '../screens/ChatListScreen';
@@ -13,11 +13,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getFirebaseApp } from '../utils/firebaseHelper';
 import { child, get, getDatabase, off, onValue, ref } from 'firebase/database';
-import { setChatsData } from '../store/chatSlice';
+import { removeChatsData, setChatsData } from '../store/chatSlice';
 import { useState } from 'react';
 import commonStyles from '../constants/commonStyles';
-import { setStoredUsers } from '../store/userSlice';
-import { setChatMessages, setStarredMessages } from '../store/messagesSlice';
+import { removeStoredUsers, setStoredUsers } from '../store/userSlice';
+import { removeChatMessages, removeStarredMessages, setChatMessages, setStarredMessages } from '../store/messagesSlice';
 import ContactScreen from '../screens/ContactScreen';
 import DataListScreen from '../screens/DataListScreen';
 import * as Device from 'expo-device';
@@ -178,6 +178,14 @@ const MainNavigator = () => {
                     setIsLoading(false);
                 }
 
+            }
+
+            if (chatIds.length == 0) {
+                dispatch(removeChatsData());
+                dispatch(removeChatMessages());
+                dispatch(removeStoredUsers())
+                dispatch(removeStarredMessages())
+                setIsLoading(false);
             }
         })
 

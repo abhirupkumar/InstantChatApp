@@ -43,7 +43,7 @@ const SettingsScreen = ({ navigation }) => {
     const firstName = userData.firstName
     const lastName = userData.lastName
     const email = userData.email
-    const about = userData.about
+    const about = userData.about || ""
 
     const initialState = {
         inputValues: {

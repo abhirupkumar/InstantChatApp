@@ -15,9 +15,13 @@ const userSlice = createSlice({
                 existingUsers[userData.uid] = userData;
             }
             state.storedUsers = existingUsers
+        },
+        removeStoredUsers: (state, action) => {
+            state.storedUsers = {}
         }
     }
 })
 
 export const setStoredUsers = userSlice.actions.setStoredUsers;
+export const removeStoredUsers = userSlice.actions.removeStoredUsers;
 export default userSlice.reducer;
