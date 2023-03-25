@@ -1,0 +1,16 @@
+export default {
+    blue: "#03a8ff",
+    teal: "#ccfcfa",
+    lightGrey: "#bdc3c7",
+    extraLightGrey: "#E0E0E0",
+    green: '#00D100',
+    grey: "#7f8c8d",
+    bluishGray: "#6699CC",
+    nearlyWhite: "#F4F8F7",
+    textColor: "#1c1e23",
+    primary: "#00B883",
+    red: "#FF5733",
+    beige: "#FEF5C3",
+    gold: "#FFD700",
+    disbaledInputColor: "#D5D5D5",
+}
