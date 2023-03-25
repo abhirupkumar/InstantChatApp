@@ -1,5 +1,7 @@
 # Instant : Chat Application
 
+https://expo.dev/@abhirup/Instant?serviceType=classic&distribution=expo-go
+
 A Chat App built using React Native, Expo, Firebase, Realtime Database, React Redux.
 
 ## Screenshots
