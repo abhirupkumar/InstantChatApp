@@ -4,17 +4,17 @@ A Chat App built using React Native, Expo, Firebase, Realtime Database, React Re
 
 ## Screenshots
 
-![Sign In Screen](/assets/screenshots/SignInScreen.jpeg?raw=true)
-![Sign Up Screen](/assets/screenshots/SignUpScreen.jpeg?raw=true)
-![Chat Screen](/assets/screenshots/ChatScreen.jpeg?raw=true)
-![Creating Group](/assets/screenshots/CreatingGroup.jpeg?raw=true)
-![Group Settings](/assets/screenshots/GroupSettings.jpeg?raw=true)
-![Group 1](/assets/screenshots/Groups1.jpeg?raw=true)
-![Group 2](/assets/screenshots/Groups2.jpeg?raw=true)
-![New Chat Screen](/assets/screenshots/NewChatScreen.jpeg?raw=true)
-![Group Settings](/assets/screenshots/GroupSettings.jpeg?raw=true)
-![One To One Chat](/assets/screenshots/OneToOneChat.jpeg?raw=true)
-![Settings Screen](/assets/screenshots/SettingsScreen.jpeg?raw=true)
+![Sign In Screen](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759701/github_screenshots/InstantChatApp/SignInScreen_ihjxyc.jpg)
+![Sign Up Screen](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/SignUpScreen_ageaiv.jpg)
+![Chat Screen](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759701/github_screenshots/InstantChatApp/ChatScreen_sc25ay.jpg)
+![Creating Group](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759701/github_screenshots/InstantChatApp/CreatingGroup_fmmjxp.jpg)
+![Group Settings](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/GroupSettings_drbfec.jpg)
+![Group 1](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/Groups1_z8befy.jpg)
+![Group 2](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/Groups2_mcg4dk.jpg)
+![New Chat Screen](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/NewChatScreen_ny18o2.jpg)
+![Group Settings](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/GroupSettings_drbfec.jpg)
+![One To One Chat](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/OneToOneChat_tlhfk9.jpg)
+![Settings Screen](https://res.cloudinary.com/dfm2irc9v/image/upload/v1679759700/github_screenshots/InstantChatApp/SettingsScreen_mupup5.jpg)
 
 ## Tech Stack
 
