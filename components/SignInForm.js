@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import colors from '../constants/colors';
 
-const isTestMode = true;
+const isTestMode = false;
 
 const initialState = {
     inputValues: {
